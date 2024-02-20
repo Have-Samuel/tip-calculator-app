@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Space+Mono:wght@700&display=swap')
-
-Very dark cyan: hsl(183, 100%, 15%)
-Dark grayish cyan: hsl(186, 14%, 43%)
-Grayish cyan: hsl(184, 14%, 56%)
-Light grayish cyan: hsl(185, 41%, 84%)
-Very light grayish cyan: hsl(189, 41%, 97%)
-White: hsl(0, 0%, 100%)
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Space+Mono:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+
 
 body {
   font-family: 'Rubik', sans-serif;
