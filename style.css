@@ -64,8 +64,36 @@ h1 {
   grid-template-columns: repeat(1, 1fr);
   gap: 1.5rem;
   padding: 1rem;
+}
+
+.calculator__input1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
   border-radius: 10px;
-  /* background-color: var(--white); */
+  background-color: var(--very-light-grayish-cyan);
+  border: 2px solid red;
+  height: 100px;
+  width: 100%;
+}
+
+/* .calculator__input1 .bill {
+  text-align: left;
+  font-size: 1.5rem;
+  color: var(--very-dark-cyan);
+} */
+
+.calculator__input1 input {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--light-grayish-cyan);
+  color: var(--very-dark-cyan);
+  font-size: 1.5rem;
+  text-align: right;
 }
 
 .attribution {
