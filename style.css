@@ -32,7 +32,6 @@ main {
   margin: 0 auto;
   width: 375px;
   height: 933px;
-  padding: 2rem;
   margin-top: 2rem;
   background-color: var(--light-grayish-cyan);
 }
@@ -48,13 +47,25 @@ h1 {
   line-height: 1.2;
 }
 
-.section1 {
+.container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1.5rem;
   padding: 1rem;
   border-radius: 10px;
   background-color: var(--white);
+  border: 2px solid red;
+  height: 789px;
+  width: 375px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  /* background-color: var(--white); */
 }
 
 .attribution {
