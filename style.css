@@ -26,8 +26,19 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--very-dark-cyan);
-  background-color: var(--light-grayish-cyan);
+  /* background-color: var(--light-grayish-cyan); */
   /* padding-top: 80px; */
+}
+
+main {
+  margin: 0 auto;
+  width: 327px;
+  height: 933px;
+  /* background-color: var(--white); */
+  /* border-radius: 10px; */
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: var(--light-grayish-cyan);
 }
 
 h1 {
