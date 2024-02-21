@@ -19,14 +19,22 @@
 }
 
 body {
-  width: 375px;
-  height: 933px;
+  width: 86.7px;
+  /* height: 53px; */
   font-family: 'Rubik', sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.6;
-  color: #333;
-  background-color: #c5e4e7;
+  color: var(--very-dark-cyan);
+  background-color: var(--light-grayish-cyan);
   padding-top: 80px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .attribution {
