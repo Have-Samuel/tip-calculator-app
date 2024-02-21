@@ -21,7 +21,7 @@
 body {
   margin: 0 auto;
   width: 375px;
-  /* height: 933px; */
+  height: 933px;
   font-family: 'space mono';
   font-size: 16px;
   /* line-height: 1.6; */
@@ -29,18 +29,19 @@ body {
 }
 
 main {
-  margin: 0 auto;
+  margin: 2rem auto 2.2rem;
   width: 375px;
-  height: 933px;
-  margin-top: 2rem;
+  /* height: 933px; */
   background-color: var(--light-grayish-cyan);
 }
 
 h1 {
   display: flex;
   justify-content: center;
+  /* text-align: center; */
+  /* align-items: center; */
   font-size: 2.5rem;
-  margin: 2.5rem auto 2.2rem auto;
+  /* margin: 2.5rem auto 2.2rem auto; */
   color: var(--very-dark-cyan);
   text-transform: uppercase;
   letter-spacing: 13px;
@@ -50,6 +51,7 @@ h1 {
 .container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  margin-top: 7rem;
   gap: 1.5rem;
   padding: 1rem;
   border-radius: 10px;
@@ -73,11 +75,16 @@ h1 {
   gap: 1.5rem;
   padding: 1rem;
   border-radius: 10px;
-  background-color: var(--very-light-grayish-cyan);
   border: 2px solid red;
   height: 100px;
   width: 100%;
 }
+
+/* .calculator__input1 label{
+  font-size: 1.5rem;
+  color: var(--very-dark-cyan);
+
+} */
 
 /* .calculator__input1 .bill {
   text-align: left;
@@ -90,10 +97,11 @@ h1 {
   padding: 1rem;
   border: none;
   border-radius: 10px;
-  background-color: var(--light-grayish-cyan);
+  background-color: var(--very-light-grayish-cyan);
   color: var(--very-dark-cyan);
   font-size: 1.5rem;
-  text-align: right;
+  text-align: left;
+  outline: none;
 }
 
 .attribution {
