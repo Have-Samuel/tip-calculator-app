@@ -24,38 +24,28 @@ body {
   /* height: 933px; */
   font-family: 'space mono';
   font-size: 16px;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   color: var(--very-dark-cyan);
-  /* background-color: var(--light-grayish-cyan); */
-  /* padding-top: 80px; */
 }
 
 main {
   margin: 0 auto;
-  width: 327px;
+  width: 375px;
   height: 933px;
-  /* background-color: var(--white); */
-  /* border-radius: 10px; */
   padding: 2rem;
   margin-top: 2rem;
   background-color: var(--light-grayish-cyan);
 }
 
 h1 {
-  font-family: 'rubik';
-  font-weight: 700;
+  display: flex;
+  justify-content: center;
   font-size: 2.5rem;
+  margin: 2.5rem auto 2.2rem auto;
   color: var(--very-dark-cyan);
-  text-align: center;
-  margin-top: 2rem;
-}
-
-h1 {
-  width: 87px;
-  /* height: 53px; */
-  margin: 2rem auto 2rem auto;
-  color: var(--very-dark-cyan);
-  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 13px;
+  line-height: 1.2;
 }
 
 .attribution {
