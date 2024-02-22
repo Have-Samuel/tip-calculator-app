@@ -51,7 +51,7 @@ h1 {
   grid-template-columns: repeat(1, 1fr);
   margin-top: 3rem;
   gap: 1.5rem;
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 10px;
   background-color: var(--white);
   border: 2px solid red;
@@ -93,15 +93,31 @@ input::-webkit-inner-spin-button {
 }
 
 .calculator__input2 {
-  width: 100%;
-  /* height: 216px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
 .calculator__buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  width: 311px;
+  padding: 1rem;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  background-color: var(--white);
+  margin-top: 1rem;
+}
+
+.calculator__input2 label {
+  font-size: 1.5rem;
+  color: var(--very-dark-cyan);
+  /* margin-bottom: 1rem; */
+  align-self: flex-start;
+  margin-left: 1em;
 }
 
 .calculator__buttons button,
