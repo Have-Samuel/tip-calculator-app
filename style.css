@@ -78,17 +78,11 @@ h1 {
   width: 100%;
 }
 
-/* .calculator__input1 label{
-  font-size: 1.5rem;
-  color: var(--very-dark-cyan);
-
-} */
-
-/* .calculator__input1 .bill {
+.calculator__input1 .bill {
   text-align: left;
   font-size: 1.5rem;
   color: var(--very-dark-cyan);
-} */
+}
 
 .calculator__input1 input {
   width: 100%;
