@@ -134,7 +134,7 @@ input::-webkit-inner-spin-button {
   align-items: center;
   padding: 1rem;
   border-radius: 10px;
-  background-color: var(--Strong-cyan);
+  background-color: var(--very-dark-cyan);
   color: var(--white);
   font-size: 1.5rem;
   cursor: pointer;
@@ -142,6 +142,15 @@ input::-webkit-inner-spin-button {
   border: none;
   outline: none;
   width: 147px;
+}
+
+.custom {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Rubik';
+  font-weight: 700;
+  background-color: var(--light-grayish-cyan);
+  color: var(--very-dark-cyan);
 }
 
 .attribution {
