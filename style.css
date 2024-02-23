@@ -192,7 +192,38 @@ input::-webkit-inner-spin-button {
   color: var(--white);
 }
 
-.section2  
+.section2 .calculator__output__tip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.section2 .calculator__output__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.section2 button {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--Strong-cyan);
+  color: var(--white);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+  outline: none;
+  width: 281px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
 
 .attribution {
   margin-top: -2rem;
