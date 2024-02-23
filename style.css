@@ -193,10 +193,10 @@ input::-webkit-inner-spin-button {
 
 .section2 .calculator__output__tip {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 1rem;
-  border-radius: 10px;
+  margin: auto 1rem;
 }
 
 .section2 .calculator__output__total {
@@ -204,7 +204,7 @@ input::-webkit-inner-spin-button {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border-radius: 10px;
+  margin: auto 1rem;
 }
 
 .section2 button {
@@ -224,6 +224,40 @@ input::-webkit-inner-spin-button {
   margin: 1rem auto;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.section2 button:hover {
+  background-color: hsl(172, 67%, 55%);
+}
+
+.section2 .calculator__output__tip .tip-part {
+  width: 281px;
+  height: 48px;
+}
+
+.section .calculator__output__tip .tip-part h3 {
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.section2 .calculator__output__tip .tip-part .person1 {
+  font-size: 1rem;
+  color: var(--grayish-cyan);
+}
+
+.section2 .calculator__output__total .total-part {
+  width: 281px;
+  height: 48px;
+}
+
+.section2 .calculator__output__total .total-part h3 {
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.section2 .calculator__output__total .total-part .person2 {
+  font-size: 1rem;
+  color: var(--grayish-cyan);
 }
 
 .attribution {
