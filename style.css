@@ -184,7 +184,6 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
-  border: 1px solid red;
   width: 327px;
   height: 257px;
   margin: 0 auto;
@@ -212,7 +211,7 @@ input::-webkit-inner-spin-button {
   padding: 1rem;
   border-radius: 10px;
   background-color: var(--Strong-cyan);
-  color: var(--white);
+  color: var(--very-dark-cyan);
   font-size: 1.3rem;
   cursor: pointer;
   transition: all 0.3s;
@@ -223,6 +222,8 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   align-items: center;
   margin: 1rem auto;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .attribution {
