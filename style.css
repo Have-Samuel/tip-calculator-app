@@ -188,9 +188,11 @@ input::-webkit-inner-spin-button {
   width: 327px;
   height: 257px;
   margin: 0 auto;
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
 }
 
-.section2 
+.section2  
 
 .attribution {
   margin-top: -2rem;
