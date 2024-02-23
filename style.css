@@ -159,6 +159,18 @@ input::-webkit-inner-spin-button {
   color: var(--very-dark-cyan);
 }
 
+.calculator__input3 {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 10px;
+  border: 2px solid red;
+  width: 311px;
+  height: 78px;
+}
+
 .attribution {
   margin-top: 18rem;
   font-size: 11px;
