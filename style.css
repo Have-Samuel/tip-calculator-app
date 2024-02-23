@@ -58,7 +58,7 @@ h1 {
   border-radius: 10px;
   background-color: var(--white);
   border: 2px solid red;
-  height: 789px;
+  /* height: 789px; */
   width: 375px;
 }
 
@@ -137,7 +137,7 @@ input::-webkit-inner-spin-button {
   border-radius: 10px;
   background-color: var(--very-dark-cyan);
   color: var(--white);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   cursor: pointer;
   transition: all 0.3s;
   border: none;
@@ -147,7 +147,7 @@ input::-webkit-inner-spin-button {
 
 .custom {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 700;
@@ -183,9 +183,12 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   border-radius: 10px;
-  
+  border: 1px solid red;
+  width: 327px;
+  height: 257px;
+  margin: 0 auto;
 }
 
 .attribution {
