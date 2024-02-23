@@ -250,6 +250,11 @@ input::-webkit-inner-spin-button {
   font-size: 1.9rem;
 }
 
+.section2 .calculator__output__total .color2 {
+  color: var(--Strong-cyan);
+  font-size: 1.9rem;
+}
+
 .section2 .calculator__output__total .total-part {
   width: 281px;
   height: 48px;
