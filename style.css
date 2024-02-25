@@ -279,3 +279,102 @@ input::-webkit-inner-spin-button {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 736px) {
+  body {
+    width: 768px;
+    height: 100vh;
+  }
+
+  main {
+    margin: 2rem auto 2.2rem auto;
+    width: 768px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+    gap: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--white);
+    height: 866px;
+    width: 768px;
+  }
+
+  .section1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+
+  .calculator__input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .calculator__input1 label {
+    font-size: 1.5rem;
+    color: var(--very-dark-cyan);
+    align-self: flex-start;
+    margin-left: 1em;
+  }
+
+  .calculator__input1 input {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--very-light-grayish-cyan);
+    color: var(--very-dark-cyan);
+    font-size: 1.5rem;
+    outline: none;
+    text-align: right;
+  }
+
+  .calculator__input2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .calculator__buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--white);
+  }
+
+  .calculator__input2 label {
+    font-size: 1.5rem;
+    color: var(--very-dark-cyan);
+    align-self: flex-start;
+    margin-left: 1em;
+  }
+
+  .calculator__buttons button,
+  .custom {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    outline: none;
+  }
+}
