@@ -333,6 +333,7 @@ input::-webkit-inner-spin-button {
 
   .calculator__input1 input {
     padding: 1rem;
+
     /* border: none; */
     border-radius: 10px;
     background-color: var(--very-light-grayish-cyan);
