@@ -284,10 +284,11 @@ input::-webkit-inner-spin-button {
   body {
     width: 768px;
     height: 100vh;
+    background-color: var(--light-grayish-cyan);
   }
 
   main {
-    margin: 2rem auto 2.2rem auto;
+    /* margin: 2rem auto 2.2rem auto; */
     width: 768px;
   }
 
