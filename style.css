@@ -341,7 +341,6 @@ input::-webkit-inner-spin-button {
     outline: none;
     text-align: right;
     width: 360px;
-    border: 1px solid red;
   }
 
   .calculator__input3 {
