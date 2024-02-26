@@ -203,11 +203,6 @@ input::-webkit-inner-spin-button {
 
 .custom:hover {
   border: 2px solid var(--very-dark-cyan);
-  color: var(--very-dark-cyan);
-}
-
-input::placeholder:hover {
-  color: var(--white);
 }
 
 .calculator__input3 {
@@ -275,10 +270,6 @@ input::placeholder:hover {
   width: 20px;
   background: url('./images/icon-person.svg') center / contain no-repeat;
 }
-
-/* .calculator__input3 input {
-  width: 358px;
-} */
 
 .section2 button:hover {
   background-color: hsl(172, 67%, 55%);
