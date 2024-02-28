@@ -81,8 +81,11 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+👤 **Have-Samuel**
+
+- [Github](https://github.com/Have-Samuel)
+- [FrontendMentor](https://www.frontendmentor.io/profile/Have-Samuel)
+- [Twitter](https://twitter.com/samhave1)
+- [LinkedIn](https://www.linkedin.com/in/have-samuel/)
 
 ## Acknowledgments
