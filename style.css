@@ -325,10 +325,11 @@ input::-webkit-inner-spin-button {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 786px) {
   body {
     width: 1440px;
     background-color: var(--light-grayish-cyan);
+
   }
 
   main {
@@ -490,5 +491,94 @@ input::-webkit-inner-spin-button {
 
   .calculator__input3 input {
     width: 358px;
+  }
+
+  @media (min-width: 1200px) {
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: var(--light-grayish-cyan);
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 3rem;
+      gap: 1.5rem;
+      border-radius: 10px;
+      background-color: var(--white);
+      height: 481px;
+      width: 920px;
+    }
+
+    .section1 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 0;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    .calculator__input1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 2.5rem;
+      margin-top: 2rem;
+      flex-direction: column;
+      border-radius: 10px;
+    }
+
+    .calculator__input1 label {
+      font-size: 1.5rem;
+      color: var(--very-dark-cyan);
+      align-self: flex-start;
+      margin-left: 0;
+      position: relative;
+    }
+
+    .calculator__input1 input {
+      padding: 1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 10px;
+      background-color: var(--very-light-grayish-cyan);
+      color: var(--very-dark-cyan);
+      font-size: 1.5rem;
+      outline: none;
+      text-align: right;
+      width: 360px;
+    }
+
+    .calculator__input1 label::before {
+      content: "";
+      position: absolute;
+      left: 20px;
+      top: 40px;
+      bottom: 0;
+      width: 20px;
+      background: url('./images/icon-dollar.svg') center / contain no-repeat;
+    }
+
+    .calculator__input3 {
+      margin-bottom: 2rem;
+      margin-left: 2rem;
+    }
+
+    .calculator__input2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
   }
 }
