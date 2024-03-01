@@ -71,9 +71,6 @@ const proudOfThisFunc = () => {
   console.log('🎉')
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Useful resources
 
 - []() - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
