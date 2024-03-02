@@ -5,8 +5,7 @@ const customTip = document.getElementById('custom').value;
 const noPple = document.getElementById('people').value;
 const resetBtn = document.getElementById('reset');
 
-// Functions
-// Calculate tip
+// Calculating the Tip
 function calculateTip() {
   tip.forEach((button) => {
     button.addEventListener('click', () => {
