@@ -70,7 +70,7 @@ To see how you can add code snippets, see below:
 const proudOfThisFunc = () => {
   console.log('🎉')
 }
-```
+
 ### Useful resources
 
 - []() - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
