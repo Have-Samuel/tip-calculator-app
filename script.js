@@ -30,14 +30,7 @@ function custom() {
 
 // Reset
 function reset() {
-  resetBtn.addEventListener('click', () => {
-    document.getElementById('bill').value = '';
-    document.getElementById('custom').value = '';
-    document.getElementById('people').value = '';
-    document.getElementById('tip-amount').textContent = '0.00';
-    document.getElementById('total').textContent = '0.00';
-  });
-  console.log('Reset');
+  
 }
 
 // Event listeners
