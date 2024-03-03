@@ -30,7 +30,7 @@ function custom() {
 
 // Reset
 function reset() {
-  
+
 }
 
 // Event listeners
