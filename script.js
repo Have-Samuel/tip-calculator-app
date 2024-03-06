@@ -1,8 +1,10 @@
 // Variables
-const bill = document.getElementById('bill').value;
-const tip = document.querySelectorAll('tip-button');
-const customTip = document.getElementById('custom').value;
-const noPple = document.getElementById('people').value;
+const billAmount = document.getElementById('bill');
+const buttons = document.querySelectorAll('.tip-button button');
+const billTipAmount = document.getElementById('tip-amount');
+const customTipPercentage = document.getElementById('custom');
+const numPeople = document.getElementById('people');
+const billTotalPerPerson = document.getElementById('total');
 const resetBtn = document.getElementById('reset');
 
 // Calculating the Tip
