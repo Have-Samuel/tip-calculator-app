@@ -185,12 +185,13 @@ input::-webkit-inner-spin-button {
   color: var(--very-dark-cyan);
 } */
 
-/* .calculator__buttons button.active {
+.active {
+  border: 2px solid red;
   background-color: var(--Strong-cyan);
   color: var(--very-dark-cyan);
-} */
+}
 
-.active {
+.calculator__buttons button .active {
   background-color: var(--Strong-cyan);
   color: var(--very-dark-cyan);
 }
