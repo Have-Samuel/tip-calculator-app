@@ -5,7 +5,7 @@ const numPeople = document.getElementById('people');
 const tipAmount = document.getElementById('tip-amount');
 const billTotalPerPerson = document.getElementById('total');
 const resetBtn = document.getElementById('reset');
-// const buttons = document.querySelectorAll('.tip-button button');
+const buttons = document.querySelectorAll('.tip-button button');
 
 resetBtn.addEventListener('click', (eve) => {
   billAmount.value = '0';
@@ -13,4 +13,14 @@ resetBtn.addEventListener('click', (eve) => {
   numPeople.value = '';
   tipAmount.textContent = '$0.00';
   billTotalPerPerson.textContent = '$0.00';
+});
+
+// Making all the Buttons work
+buttons.forEach((button) => {
+  button.addEventListener('click', (eve) => {
+    buttons.forEach((tipBtn) => {
+      tipBtn.classList.remove('active');
+    });
+    eve.target.classList.add('active');
+  });
 });
