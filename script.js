@@ -15,7 +15,7 @@ resetBtn.addEventListener('click', (eve) => {
   billTotalPerPerson.textContent = '$0.00';
 });
 
-// Making all the Buttons work
+// Making all the tip buttons work
 buttons.forEach((button) => {
   button.addEventListener('click', (eve) => {
     buttons.forEach((tipBtn) => {
