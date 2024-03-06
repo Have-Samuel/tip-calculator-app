@@ -5,7 +5,7 @@ const numPeople = document.getElementById('people');
 const tipAmount = document.getElementById('tip-amount');
 const billTotalPerPerson = document.getElementById('total');
 const resetBtn = document.getElementById('reset');
-const buttons = document.querySelectorAll('.tip-button button');
+const buttons = document.querySelectorAll('.tip-button');
 
 resetBtn.addEventListener('click', (eve) => {
   billAmount.value = '0';
@@ -20,6 +20,7 @@ buttons.forEach((button) => {
   button.addEventListener('click', (eve) => {
     buttons.forEach((tipBtn) => {
       tipBtn.classList.remove('active');
+      console.log(tipBtn);
     });
     eve.target.classList.add('active');
   });
