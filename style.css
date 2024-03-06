@@ -172,9 +172,6 @@ input::-webkit-inner-spin-button {
   border: none;
   outline: none;
   width: 281px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 1rem auto;
   font-weight: 600;
   text-transform: uppercase;
@@ -182,6 +179,16 @@ input::-webkit-inner-spin-button {
 
 .calculator__buttons button:hover {
   background-color: var(--light-grayish-cyan);
+  color: var(--very-dark-cyan);
+}
+
+.active:focus {
+  background-color: var(--Strong-cyan);
+  color: var(--very-dark-cyan);
+}
+
+.calculator__buttons button .active {
+  background-color: var(--Strong-cyan);
   color: var(--very-dark-cyan);
 }
 
@@ -578,6 +585,16 @@ input::-webkit-inner-spin-button {
       display: flex;
       justify-content: center;
       flex-direction: column;
+    }
+
+    .active {
+      background-color: var(--Strong-cyan);
+      color: var(--very-dark-cyan);
+    }
+
+    .calculator__buttons .active {
+      background-color: var(--Strong-cyan);
+      color: var(--very-dark-cyan);
     }
   }
 }

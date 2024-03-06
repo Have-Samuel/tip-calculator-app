@@ -1,39 +1,27 @@
 // Variables
-const bill = document.getElementById('bill').value;
-const tip = document.querySelectorAll('tip-button');
-const customTip = document.getElementById('custom').value;
-const noPple = document.getElementById('people').value;
+const billAmount = document.getElementById('bill');
+const customTipPercentage = document.getElementById('custom');
+const numPeople = document.getElementById('people');
+const tipAmount = document.getElementById('tip-amount');
+const billTotalPerPerson = document.getElementById('total');
 const resetBtn = document.getElementById('reset');
+const buttons = document.querySelectorAll('.tip-button');
 
-// Calculating the Tip
-function calculateTip() {
-  tip.forEach((button) => {
-    button.addEventListener('click', () => {
-      const tipAmount = button.value;
-      const tipValue = (bill * tipAmount) / noPple;
-      const total = bill / noPple + tipValue;
-      document.getElementById('tip-amount').textContent = tipValue;
-      document.getElementById('total').textContent = total;
+resetBtn.addEventListener('click', (eve) => {
+  billAmount.value = '0';
+  customTipPercentage.value = '';
+  numPeople.value = '';
+  tipAmount.textContent = '$0.00';
+  billTotalPerPerson.textContent = '$0.00';
+});
+
+// Making all the tip buttons work
+buttons.forEach((button) => {
+  button.addEventListener('click', (eve) => {
+    buttons.forEach((tipBtn) => {
+      tipBtn.classList.remove('active');
+      // console.log(tipBtn);
     });
+    eve.target.classList.add('active');
   });
-}
-
-// Custom tip
-function custom() {
-  customTip.addEventListener('input', () => {
-    const tipValue = (bill * customTip) / noPple;
-    const total = bill / noPple + tipValue;
-    document.getElementById('tip-amount').textContent = tipValue;
-    document.getElementById('total').textContent = total;
-  });
-}
-
-// Reset
-function reset() {
-
-}
-
-// Event listeners
-calculateTip();
-custom();
-reset();
+});
