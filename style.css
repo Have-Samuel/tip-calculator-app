@@ -180,8 +180,18 @@ input::-webkit-inner-spin-button {
   text-transform: uppercase;
 }
 
-.calculator__buttons button:hover {
+/* .calculator__buttons button:hover {
   background-color: var(--light-grayish-cyan);
+  color: var(--very-dark-cyan);
+} */
+
+/* .calculator__buttons button.active {
+  background-color: var(--Strong-cyan);
+  color: var(--very-dark-cyan);
+} */
+
+.active {
+  background-color: var(--Strong-cyan);
   color: var(--very-dark-cyan);
 }
 
@@ -578,6 +588,16 @@ input::-webkit-inner-spin-button {
       display: flex;
       justify-content: center;
       flex-direction: column;
+    }
+
+    .active {
+      background-color: var(--Strong-cyan);
+      color: var(--very-dark-cyan);
+    }
+
+    .calculator__buttons .active {
+      background-color: var(--Strong-cyan);
+      color: var(--very-dark-cyan);
     }
   }
 }
