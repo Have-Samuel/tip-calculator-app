@@ -20,7 +20,7 @@ buttons.forEach((button) => {
   button.addEventListener('click', (eve) => {
     buttons.forEach((tipBtn) => {
       tipBtn.classList.remove('active');
-      console.log(tipBtn);
+      // console.log(tipBtn);
     });
     eve.target.classList.add('active');
   });
