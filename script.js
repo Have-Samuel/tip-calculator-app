@@ -20,8 +20,13 @@ buttons.forEach((button) => {
   button.addEventListener('click', (eve) => {
     buttons.forEach((tipBtn) => {
       tipBtn.classList.remove('active');
-      // console.log(tipBtn);
     });
-    eve.target.classList.add('active');
+
+    if (eve.target.classList.contains('custom')) {
+      eve.target.parentElement.classList.add('active');
+    } else {
+      eve.target.classList.add('active');
+      // customTipPercentage.value = eve.target.textContent;
+    }
   });
 });
