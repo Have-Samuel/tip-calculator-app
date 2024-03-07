@@ -26,7 +26,6 @@ buttons.forEach((button) => {
       eve.target.parentElement.classList.add('active');
     } else {
       eve.target.classList.add('active');
-      // customTipPercentage.value = eve.target.textContent;
     }
   });
 });
