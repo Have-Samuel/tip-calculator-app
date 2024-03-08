@@ -4,7 +4,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Overview](#overview)
+- [Overview]
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Links](#links)
