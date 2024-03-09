@@ -182,6 +182,11 @@ input::-webkit-inner-spin-button {
   color: var(--very-dark-cyan);
 }
 
+.active {
+  background-color: var(--Strong-cyan);
+  color: var(--very-dark-cyan);
+}
+
 .active:focus {
   background-color: var(--Strong-cyan);
   color: var(--very-dark-cyan);
