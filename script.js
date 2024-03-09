@@ -20,7 +20,7 @@ resetBtn.addEventListener('click', (eve) => {
   buttons.forEach((tipBtn) => {
     tipBtn.classList.remove('active');
   });
-  // Setting 15% as default
+  // Setting 15% as the default tip
   buttons[2].classList.add('active');
 });
 
