@@ -8,11 +8,11 @@ const resetBtn = document.getElementById('reset');
 const buttons = document.querySelectorAll('.tip-button');
 
 resetBtn.addEventListener('click', (eve) => {
-  billAmount.value = '0';
+  billAmount.value = '';
   customTipPercentage.value = '';
   numPeople.value = '';
-  tipAmount.innerHTML = '$0.00';
-  billTotalPerPerson.innerHTML = '$0.00';
+  tipAmount.textContent = '$0.00';
+  billTotalPerPerson.textContent = '$0.00';
 
   // Reseting the Tips Buttons
   buttons.forEach((tipBtn) => {
