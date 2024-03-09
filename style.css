@@ -187,12 +187,6 @@ input::-webkit-inner-spin-button {
   color: var(--very-dark-cyan);
 }
 
-.success {
-  background-color: blue;
-  color: yellow;
-  border: 2px solid red;
-}
-
 .active:focus {
   background-color: var(--Strong-cyan);
   color: var(--very-dark-cyan);
