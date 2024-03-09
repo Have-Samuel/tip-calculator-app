@@ -2,25 +2,28 @@
 const billAmount = document.getElementById('bill');
 const customTipPercentage = document.getElementById('custom');
 const numPeople = document.getElementById('people');
-const tipAmount = document.getElementById('tip-amount');
+const tipAmount1 = document.querySelector('.color1');
+const tipAmount2 = document.querySelector('.color2');
 const billTotalPerPerson = document.getElementById('total');
 const resetBtn = document.getElementById('reset');
 const buttons = document.querySelectorAll('.tip-button');
 
 resetBtn.addEventListener('click', (eve) => {
+  // Reset the inputs and values
   billAmount.value = '';
   customTipPercentage.value = '';
-  numPeople.value = '';
-  tipAmount.textContent = '$0.00';
-  billTotalPerPerson.textContent = '$0.00';
-
+  numPeople.value = '1';
+  tipAmount1.innerHTML = '$0.00';
+  tipAmount2.innerHTML = '$0.00';
+  billTotalPerPerson.innerHTML = '$0.00';
+  console.log(tipAmount1);
   // Reseting the Tips Buttons
   buttons.forEach((tipBtn) => {
     tipBtn.classList.remove('active');
     console.log(buttons);
   });
+  // Setting 15% as default
   buttons[2].classList.add('active');
-  console.log(buttons[2]);
 });
 
 // Making all the tip buttons work
