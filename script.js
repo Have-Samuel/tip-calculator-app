@@ -11,8 +11,16 @@ resetBtn.addEventListener('click', (eve) => {
   billAmount.value = '0';
   customTipPercentage.value = '';
   numPeople.value = '';
-  tipAmount.textContent = '$0.00';
-  billTotalPerPerson.textContent = '$0.00';
+  tipAmount.innerHTML = '$0.00';
+  billTotalPerPerson.innerHTML = '$0.00';
+
+  // Reseting the Tips Buttons
+  buttons.forEach((tipBtn) => {
+    tipBtn.classList.remove('active');
+    console.log(buttons);
+  });
+  buttons[2].classList.add('active');
+  console.log(buttons[2]);
 });
 
 // Making all the tip buttons work
