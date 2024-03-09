@@ -18,7 +18,7 @@ resetBtn.addEventListener('click', (eve) => {
   billTotalPerPerson.innerHTML = '$0.00';
   // Reseting the Tips Buttons
   buttons.forEach((tipBtn) => {
-    tipBtn.classList.remove('success');
+    tipBtn.classList.remove('active');
   });
   // Setting 15% as the default tip
   const fift = buttons.classList('fiftin');
