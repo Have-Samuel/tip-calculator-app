@@ -21,7 +21,8 @@ resetBtn.addEventListener('click', (eve) => {
     tipBtn.classList.remove('active');
   });
   // Setting 15% as the default tip
-  buttons[2].classList.add('active');
+  const fift = buttons.classList('fiftin');
+  fift.classList.add('active');
 });
 
 // Making all the tip buttons work
