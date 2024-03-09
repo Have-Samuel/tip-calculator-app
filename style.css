@@ -267,7 +267,6 @@ input::-webkit-inner-spin-button {
 
 .section2 .calculator__output__total {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   margin: 0 1rem;
