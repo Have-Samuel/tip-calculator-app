@@ -1,4 +1,3 @@
-// Variables
 const billAmount = document.getElementById('bill');
 const customTipPercentage = document.getElementById('custom');
 const numPeople = document.getElementById('people');
