@@ -178,8 +178,8 @@ input::-webkit-inner-spin-button {
 }
 
 .fiftin {
-  color: var(--very-dark-cyan);
-  background-color: var(--very-light-grayish-cyan);
+  /* color: var(--very-dark-cyan); */
+  background-color: var(--dark-grayish-cyan);
   font-weight: bolder;
 }
 
@@ -342,7 +342,7 @@ input::-webkit-inner-spin-button {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 786px) {
+/* @media (min-width: 786px) {
   body {
     width: 1440px;
     background-color: var(--light-grayish-cyan);
@@ -607,4 +607,4 @@ input::-webkit-inner-spin-button {
       color: var(--very-dark-cyan);
     }
   }
-}
+} */
