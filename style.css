@@ -234,7 +234,7 @@ input::-webkit-inner-spin-button {
   position: relative;
 }
 
-.calculator__input3 input {
+.section1 .people-input {
   padding: 1rem;
   border: none;
   border-radius: 10px;
@@ -246,7 +246,32 @@ input::-webkit-inner-spin-button {
   width: 334px;
   font-weight: 700;
   cursor: pointer;
+  margin: 0 auto;
 }
+
+.section1 .input-peop::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  bottom: 0;
+  width: 20px;
+  /* background-image: url('./images/icon-person.svg'); */
+}
+
+/* .calculator__input3 input {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--very-light-grayish-cyan);
+  color: var(--very-dark-cyan);
+  font-size: 1.5rem;
+  outline: none;
+  text-align: right;
+  width: 334px;
+  font-weight: 700;
+  cursor: pointer;
+} */
 
 .section2 {
   display: flex;
