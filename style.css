@@ -177,6 +177,12 @@ input::-webkit-inner-spin-button {
   text-transform: uppercase;
 }
 
+.fiftin {
+  color: var(--very-dark-cyan);
+  background-color: var(--very-light-grayish-cyan);
+  font-weight: bolder;
+}
+
 .calculator__buttons button:hover {
   background-color: var(--light-grayish-cyan);
   color: var(--very-dark-cyan);
