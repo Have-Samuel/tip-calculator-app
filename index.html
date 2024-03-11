@@ -18,25 +18,25 @@
     <section class="section1">
       <div class="calculator__input1">
         <label for="bill">Bill
-        <input  type="number" id="bill" placeholder="0"/>      
+        <input  type="number" id="bill" placeholder="142.55"/>      
       </label>
     </div>
       <div class="calculator__input2">
         <label for="tip">Select Tip %</label>
         <div class="calculator__buttons">
-          <button type="button" class="tip-button" data-percentage = "5%">5%</button>
-          <button type="button" class="tip-button" data-percentage = "10%">10%</button>
-          <button type="button" class="tip-button fiftin" data-percentage = "15%">15%</button>
-          <button type="button" class="tip-button" data-percentage = "25%">25%</button>
-          <button type="button" class="tip-button" data-percentage = "50%">50%</button>
+          <button type="button" class="tip-button" >5%</button>
+          <button type="button" class="tip-button" >10%</button>
+          <button type="button" class="tip-button fiftin" >15%</button>
+          <button type="button" class="tip-button">25%</button>
+          <button type="button" class="tip-button">50%</button>
           <input class="custom" type="number" id="custom" placeholder="Custom" />
         </div>
       </div>
-      <div class="calculator__input3">
-        <label for="people">Number of People
-        <input type="number" id="people" placeholder="0" />
-      </label>
+      <div class="calculator__input3 peopleLabel">
+        <label for="people">Number of People </label>
+        <label for="" class="error">Can't be Zero</label>
     </div>
+    <input type="number" id="people" class="input-peop people-input" placeholder="0" />
     </section>
       <section class="section2">
         <div class="calculator__output__tip">
@@ -44,14 +44,14 @@
             <h3>Tip Amount</h3>
           <p class="person1">/ person</p>
           </div>
-          <p class="color1">$0</p>
+          <p class="color1">$4.27</p>
         </div>
         <div class="calculator__output__total">
           <div class="total-part">
             <h3>Total</h3>
           <p class="person2">/ person</p>
           </div>
-          <p class="color2">$0</p>
+          <p class="color2">$32.79</p>
         </div>
         <button type="button" id="reset">Reset</button>
       </div>
