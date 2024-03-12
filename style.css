@@ -82,6 +82,10 @@ h1 {
 }
 
 .calculator__input1 label {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   font-size: 1.5rem;
   color: var(--very-dark-cyan);
   align-self: flex-start;
