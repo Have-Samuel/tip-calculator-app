@@ -303,7 +303,7 @@ input::-webkit-inner-spin-button {
   margin: 0 1rem;
 }
 
-.calculator__input3 label::before {
+.calculator__input3::before {
   content: "";
   position: absolute;
   border: 2px solid red;
