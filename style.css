@@ -232,7 +232,7 @@ input::-webkit-inner-spin-button {
   border-radius: 10px;
 }
 
-.calculator__input3 label {
+.calculator__input3 .lab-2 {
   font-size: 1rem;
   color: var(--very-dark-cyan);
   position: relative;
@@ -251,6 +251,17 @@ input::-webkit-inner-spin-button {
   font-weight: 700;
   cursor: pointer;
   margin: 0 auto;
+}
+
+.section1 .people-input::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  bottom: 0;
+  width: 20px;
+  background-image: url('./images/icon-person.svg');
+  border: 2px solid red;
 }
 
 /* .section1 .input-peop::before {
@@ -303,7 +314,7 @@ input::-webkit-inner-spin-button {
   margin: 0 1rem;
 }
 
-.calculator__input3::before {
+/* .calculator__input3::before {
   content: "";
   position: absolute;
   border: 2px solid red;
@@ -312,7 +323,7 @@ input::-webkit-inner-spin-button {
   bottom: 10px;
   width: 20px;
   background: url('./images/icon-person.svg') center / contain no-repeat;
-}
+} */
 
 .section2 button:hover {
   background-color: hsl(172, 67%, 55%);
@@ -499,7 +510,7 @@ input::-webkit-inner-spin-button {
     width: 114px; */
   }
 
-  .custom {
+  /* .custom {
     width: 114px;
     text-align: center;
     font-size: 1.2rem;
@@ -540,7 +551,7 @@ input::-webkit-inner-spin-button {
 
   .calculator__input3 input {
     width: 358px;
-  }
+  } */
 
   /* @media (min-width: 1200px) {
     body {
