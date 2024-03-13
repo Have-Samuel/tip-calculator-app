@@ -268,7 +268,7 @@ input::-webkit-inner-spin-button {
   position: absolute;
   left: 15px;
   top: 18px;
-  bottom: 0px;
+  bottom: 0;
   width: 25px;
   background: url('./images/icon-person.svg') center / contain no-repeat;
 }
