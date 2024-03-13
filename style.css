@@ -145,7 +145,7 @@ input::-webkit-inner-spin-button {
   font-size: 1.5rem;
   color: var(--very-dark-cyan);
   align-self: flex-start;
-  margin-left: 1em;
+  margin-left: 2rem;
 }
 
 .calculator__buttons button {
@@ -161,7 +161,7 @@ input::-webkit-inner-spin-button {
   transition: all 0.3s;
   border: none;
   outline: none;
-  width: 147px;
+  /* width: 147px; */
   font-weight: 600;
 }
 
@@ -234,6 +234,7 @@ input::-webkit-inner-spin-button {
   border-radius: 10px;
   margin-left: 2rem;
   margin: 0 auto;
+  position: relative;
 }
 
 .labs {
@@ -262,15 +263,14 @@ input::-webkit-inner-spin-button {
   margin: 0 auto;
 }
 
-.section1 .people-input::before {
+.calculator__input3 label::before {
   content: "";
   position: absolute;
-  left: 10px;
-  top: 10px;
-  bottom: 0;
-  width: 20px;
-  background-image: url('./images/icon-person.svg');
-  border: 2px solid red;
+  left: 15px;
+  top: 18px;
+  bottom: 0px;
+  width: 25px;
+  background: url('./images/icon-person.svg') center / contain no-repeat;
 }
 
 /* .section1 .input-peop::before {
