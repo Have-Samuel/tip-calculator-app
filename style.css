@@ -236,10 +236,15 @@ input::-webkit-inner-spin-button {
   margin: 0 auto;
 }
 
+.labs {
+  display: flex;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
 .calculator__input3 .lab-2 {
   font-size: 1rem;
   color: var(--very-dark-cyan);
-  position: relative;
 }
 
 .section1 .people-input {
@@ -251,7 +256,7 @@ input::-webkit-inner-spin-button {
   font-size: 1.5rem;
   outline: none;
   text-align: right;
-  width: 334px;
+  width: 311px;
   font-weight: 700;
   cursor: pointer;
   margin: 0 auto;
