@@ -382,7 +382,7 @@ input::-webkit-inner-spin-button {
     border-radius: 10px;
     background-color: var(--white);
     height: 481px;
-    width: 920px;
+    width: 786px;
   }
 
   .section1 {
@@ -409,8 +409,9 @@ input::-webkit-inner-spin-button {
     font-size: 1.5rem;
     color: var(--very-dark-cyan);
     align-self: flex-start;
-    margin-left: 0;
+    margin-left: -0.8rem;
     position: relative;
+    margin-top: -1rem;
   }
 
   .calculator__input1 input {
@@ -423,7 +424,7 @@ input::-webkit-inner-spin-button {
     font-size: 1.5rem;
     outline: none;
     text-align: right;
-    width: 360px;
+    width: 300px;
   }
 
   .calculator__input1 label::before {
@@ -460,26 +461,20 @@ input::-webkit-inner-spin-button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.7rem;
-    padding: 1rem 2.5rem;
     padding: 0.8rem;
-    border-radius: 10px;
-    font-weight: 700;
-    background-color: var(--very-dark-cyan);
-    color: var(--white);
-    font-size: 1rem;
-    width: 114px;
+    width: 100%;
+    margin-left: 2rem;
   }
 
   .calculator__input2 label {
     font-size: 1.5rem;
     color: var(--very-dark-cyan);
     align-self: flex-start;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     margin-top: 1rem;
   }
 
   .custom {
-    width: 114px;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Space Mono', monospace;
