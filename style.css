@@ -424,7 +424,7 @@ input::-webkit-inner-spin-button {
     font-size: 1.5rem;
     outline: none;
     text-align: right;
-    width: 300px;
+    width: 311px;
   }
 
   .calculator__input1 label::before {
@@ -505,10 +505,10 @@ input::-webkit-inner-spin-button {
   .calculator__input3 label::before {
     content: "";
     position: absolute;
-    left: 20px;
-    top: 40px;
-    bottom: 0;
-    width: 20px;
+    left: 5px;
+    top: 47px;
+    bottom: -61px;
+    width: 25px;
     background: url('./images/icon-person.svg') center / contain no-repeat;
   }
 
