@@ -48,12 +48,14 @@ function clickHandler(e) {
   calculateTip();
 }
 
+// Custom Input field
 function tipInputFun() {
   tipValue = parseFloat(customTip.value / 100);
 
   buttons.forEach((button) => {
     button.classList.remove('active');
   });
+  calculateTip();
 }
 
 billInput.addEventListener('input', billInputFun);
