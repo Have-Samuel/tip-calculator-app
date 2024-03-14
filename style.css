@@ -645,8 +645,8 @@ input::-webkit-inner-spin-button {
       color: var(--very-dark-cyan);
     }
 
-    .error {
-      
+    .labs {
+      justify-content: space-around;
     }
   }
 }
