@@ -358,6 +358,7 @@ input::-webkit-inner-spin-button {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
 
 @media (min-width: 786px) {
@@ -551,6 +552,23 @@ input::-webkit-inner-spin-button {
       margin-top: 1rem;
     }
 
+    .section2 {
+      margin: 2.5rem 2rem 2rem 2rem;
+    }
+
+    .calculator__input2 label {
+      margin-left: 2.8rem;
+    }
+
+    .calculator__buttons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.7rem;
+      padding: 0.8rem;
+      width: 95%;
+      margin-left: 2rem;
+    }
+
     .calculator__input1 {
       display: flex;
       justify-content: center;
@@ -579,7 +597,22 @@ input::-webkit-inner-spin-button {
       font-size: 1.5rem;
       outline: none;
       text-align: right;
-      width: 360px;
+      width: 400px;
+    }
+
+    .section1 .people-input {
+      padding: 1rem;
+      border: none;
+      border-radius: 10px;
+      background-color: var(--very-light-grayish-cyan);
+      color: var(--very-dark-cyan);
+      font-size: 1.5rem;
+      outline: none;
+      text-align: right;
+      width: 400px;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 0 auto;
     }
 
     .calculator__input1 label::before {
@@ -594,7 +627,7 @@ input::-webkit-inner-spin-button {
 
     .calculator__input3 {
       margin-bottom: 2rem;
-      margin-left: 2rem;
+      margin-left: 2.8rem;
     }
 
     .calculator__input2 {
