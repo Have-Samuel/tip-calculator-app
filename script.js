@@ -3,7 +3,6 @@ const peopleInput = document.getElementById('people');
 const tipPerPerson = document.getElementById('tip-amount');
 const totalPerPerson = document.getElementById('total-amount');
 const buttons = document.querySelectorAll('.tip-button');
-
 const customTip = document.getElementById('custom');
 const resetBtn = document.getElementById('reset');
 
@@ -49,8 +48,18 @@ function clickHandler(e) {
   calculateTip();
 }
 
+function tipInputFun() {
+  tipValue = parseFloat(customTip.value / 100);
+
+  buttons.forEach((button) => {
+    button.classList.remove('active');
+  });
+}
+
 billInput.addEventListener('input', billInputFun);
 peopleInput.addEventListener('input', numPeopleFun);
 buttons.forEach((button) => {
   button.addEventListener('click', clickHandler);
 });
+
+customTip.addEventListener('input', tipInputFun);
