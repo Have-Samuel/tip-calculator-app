@@ -5,6 +5,7 @@ const totalPerPerson = document.getElementById('total-amount');
 const buttons = document.querySelectorAll('.tip-button');
 const customTip = document.getElementById('custom');
 const resetBtn = document.getElementById('reset');
+const error = document.querySelector('.error');
 
 billInput.value = '0.0';
 peopleInput.value = '1';
@@ -33,6 +34,15 @@ function billInputFun() {
 // Display the total amount per person
 function numPeopleFun() {
   peopleValue = parseFloat(peopleInput.value);
+
+  // Error display
+  if (peopleValue < 1) {
+    error.style.display = 'flex';
+    peopleInput.style.border = 'thick solid red';
+  } else {
+    error.style.display = 'none';
+    peopleInput.style.border = 'none';
+  }
   calculateTip();
 }
 
