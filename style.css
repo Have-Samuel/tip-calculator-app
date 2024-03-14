@@ -451,10 +451,10 @@ input::-webkit-inner-spin-button {
   }
 
   .section2 {
-    width: 413px;
-    height: 417px;
+    width: 385px;
+    height: 406px;
     color: var(--white);
-    margin: 2rem 2.5rem 0 auto;
+    margin: 2.2rem 1.7rem 2.25rem 0.5rem;
   }
 
   .calculator__buttons {
@@ -497,16 +497,15 @@ input::-webkit-inner-spin-button {
 
   .calculator__input3 label {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--very-dark-cyan);
-    margin-left: 0.9rem;
   }
 
   .calculator__input3 label::before {
     content: "";
     position: absolute;
-    left: 5px;
-    top: 47px;
+    left: 18px;
+    top: 36px;
     bottom: -61px;
     width: 25px;
     background: url('./images/icon-person.svg') center / contain no-repeat;
