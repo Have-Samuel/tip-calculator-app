@@ -1,40 +1,43 @@
 const billAmount = document.getElementById('bill');
-const customTipPercentage = document.getElementById('custom');
 const numPeople = document.getElementById('people');
-const tipAmount1 = document.querySelector('.color1');
-const tipAmount2 = document.querySelector('.color2');
-const billTotalPerPerson = document.getElementById('total');
-const resetBtn = document.getElementById('reset');
+const tipPerPerson = document.getElementById('tip-amount');
+const billTotalPerPerson = document.getElementById('total-amount');
 const buttons = document.querySelectorAll('.tip-button');
 
-resetBtn.addEventListener('click', (eve) => {
-  // Reset the inputs and values
-  billAmount.value = '';
-  customTipPercentage.value = '';
-  numPeople.value = '1';
-  tipAmount1.innerHTML = '$0.00';
-  tipAmount2.innerHTML = '$0.00';
-  billTotalPerPerson.innerHTML = '$0.00';
-  // Reseting the Tips Buttons
-  buttons.forEach((tipBtn) => {
-    tipBtn.classList.remove('active');
-  });
-  // Setting 15% as the default tip
-  const fift = buttons.classList('fiftin');
-  fift.classList.add('active');
-});
+const customTip = document.getElementById('custom');
+const resetBtn = document.getElementById('reset');
 
-// Making all the tip buttons work
-buttons.forEach((button) => {
-  button.addEventListener('click', (eve) => {
-    buttons.forEach((tipBtn) => {
-      tipBtn.classList.remove('active');
-    });
+billAmount.value = '0.0';
+numPeople.value = '1';
+// customTip.value = '0';
+tipPerPerson.textContent = `$${(0.00).toFixed(2)}`;
+billTotalPerPerson.textContent = `$${(0.00).toFixed(2)}`;
 
-    if (eve.target.classList.contains('custom')) {
-      eve.target.parentElement.classList.add('active');
-    } else {
-      eve.target.classList.add('active');
+let billValue = 0;
+let peopleValue = 1;
+
+// Display the tip amount and total amount per person
+function billInputFun() {
+  billValue = parseFloat(billAmount.value);
+  console.log(billValue);
+}
+
+function numPeopleFun() {
+  peopleValue = parseFloat(numPeople.value);
+  console.log(peopleValue);
+}
+
+function clickHandler(e) {
+  buttons.forEach((button) => {
+    // button.classList.remove('active');
+    if (e.target.textContent === e.textContent) {
+      button.classList.add('active');
     }
   });
+}
+
+billAmount.addEventListener('input', billInputFun);
+numPeople.addEventListener('input', numPeopleFun);
+buttons.forEach((button) => {
+  button.addEventListener('click', clickHandler);
 });
