@@ -58,6 +58,15 @@ function tipInputFun() {
   calculateTip();
 }
 
+// Reset Button
+function reset() {
+  billInput.value = '0.0';
+  billInputFun();
+  peopleInput.value = '1';
+  numPeopleFun();
+  customTip.value = '';
+}
+
 billInput.addEventListener('input', billInputFun);
 peopleInput.addEventListener('input', numPeopleFun);
 buttons.forEach((button) => {
@@ -65,3 +74,4 @@ buttons.forEach((button) => {
 });
 
 customTip.addEventListener('input', tipInputFun);
+resetBtn.addEventListener('click', reset);
