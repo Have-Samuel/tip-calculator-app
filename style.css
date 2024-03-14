@@ -644,5 +644,9 @@ input::-webkit-inner-spin-button {
       background-color: var(--Strong-cyan);
       color: var(--very-dark-cyan);
     }
+
+    .error {
+      
+    }
   }
 }
