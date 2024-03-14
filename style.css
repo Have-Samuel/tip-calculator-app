@@ -134,7 +134,7 @@ input::-webkit-inner-spin-button {
 .calculator__buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
   padding: 1rem;
   border-radius: 10px;
   background-color: var(--white);
@@ -213,7 +213,8 @@ input::-webkit-inner-spin-button {
   font-weight: 700;
   background-color: var(--light-grayish-cyan);
   color: var(--very-dark-cyan);
-  width: 147px;
+  /* width: 147px; */
+  width: 100%;
   padding: 0.6rem;
   border-radius: 10px;
   cursor: pointer;
@@ -227,7 +228,7 @@ input::-webkit-inner-spin-button {
 
 .calculator__input3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   border-radius: 10px;
   margin: 0 auto;
