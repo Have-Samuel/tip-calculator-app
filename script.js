@@ -16,21 +16,21 @@ billTotalPerPerson.textContent = `$${(0.00).toFixed(2)}`;
 let billValue = 0;
 let peopleValue = 1;
 
-// Display the tip amount and total amount per person
+// Display the tip amount per person
 function billInputFun() {
   billValue = parseFloat(billAmount.value);
   console.log(billValue);
 }
-
+// Display the total amount per person
 function numPeopleFun() {
   peopleValue = parseFloat(numPeople.value);
   console.log(peopleValue);
 }
-
+// Displaying hoe the buttons are clicked
 function clickHandler(e) {
   buttons.forEach((button) => {
-    // button.classList.remove('active');
-    if (e.target.textContent === e.textContent) {
+    button.classList.remove('active');
+    if (e.target.textContent === button.textContent) {
       button.classList.add('active');
     }
   });
