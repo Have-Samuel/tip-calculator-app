@@ -646,7 +646,13 @@ input::-webkit-inner-spin-button {
     }
 
     .labs {
-      justify-content: space-around;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .lab-1 {
+      display: flex;
+      justify-content: flex-start;
     }
   }
 }
