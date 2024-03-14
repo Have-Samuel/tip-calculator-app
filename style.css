@@ -238,7 +238,16 @@ input::-webkit-inner-spin-button {
 .labs {
   display: flex;
   gap: 1.5rem;
-  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.lab-1 {
+  text-align: left;
+}
+
+.error {
+  color: red;
+  display: none;
 }
 
 .calculator__input3 .lab-2 {
