@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/tip-calculator-app)
-- [Live Link]()
+- [Live Link](https://have-samuel.github.io/tip-calculator-app/)
 
 ## My process
 
