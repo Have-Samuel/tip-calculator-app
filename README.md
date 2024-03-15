@@ -26,11 +26,15 @@ Users should be able to:
 
 ## Mobile
 
-![](./)
+![](./design/mobile-design.jpg)
 
 ## Desktop
 
-![](./)
+![](./design/desktop-design-completed.jpg)
+
+## Desktop-Preview
+
+![](./design/desktop-preview.jpg)
 
 ### Links
 
@@ -48,32 +52,7 @@ Users should be able to:
 - Mobile-first workflow
 - Gitflow
 - Best Practices
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-
-### Useful resources
-
-- []() - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- []() - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Vanilla JS
 
 ## Author
 
@@ -84,4 +63,22 @@ const proudOfThisFunc = () => {
 - [Twitter](https://twitter.com/samhave1)
 - [LinkedIn](https://www.linkedin.com/in/have-samuel/)
 
+## 🤝 Contributions
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Have-Samuel/tip-calculator-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 ## Acknowledgments
+
+- 🎉 Thanks to Frontend Mentor
+- 👋 Thumbs Up to [@Trekab](https://github.com/trekab)
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
