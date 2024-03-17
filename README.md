@@ -53,6 +53,7 @@ Users should be able to:
 - Gitflow
 - Best Practices
 - Vanilla JS
+- Linters
 
 ## Author
 
