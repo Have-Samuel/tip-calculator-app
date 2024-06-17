@@ -52,19 +52,6 @@ header {
   font-style: normal;
 }
 
-.adjust {
-  /* margin-top: 1rem; */
-  /* margin-left: 1.5rem;
-  margin-right: 1.5rem; */
-}
-
-.adjust .fast {
-  /* width: 20px;
-  text-align: center; */
-  margin: 0 auto;
-
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
