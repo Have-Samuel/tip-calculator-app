@@ -40,9 +40,10 @@ main {
 header {
   display: flex;
   justify-content: center;
-  flex: 1;
-  font-size: 1.3rem;
   padding-top: 3rem;
+}
+
+header .adjust .fast {
   color: var(--very-dark-cyan);
   text-transform: uppercase;
   letter-spacing: 13px;
@@ -50,10 +51,6 @@ header {
   font-family: "Space Mono", monospace;
   font-weight: 700;
   font-style: normal;
-}
-
-header .adjust .fast {
-  color: var(--very-dark-cyan);
   width: 10%;
   text-align: right;
   /* color: red; */
