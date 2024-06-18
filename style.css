@@ -44,7 +44,7 @@ header {
   width: 375px;
 }
 
-header .adjust .fast {
+.adjust .fast {
   color: var(--very-dark-cyan);
   text-transform: uppercase;
   letter-spacing: 13px;
