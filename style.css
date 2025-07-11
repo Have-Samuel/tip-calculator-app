@@ -658,5 +658,11 @@ input::-webkit-inner-spin-button {
       display: flex;
       justify-content: flex-start;
     }
+
+    .attribution {
+      margin-bottom: 1rem;
+      font-size: 11px;
+      text-align: center;
+    }
   }
 }
